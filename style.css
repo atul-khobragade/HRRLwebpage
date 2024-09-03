@@ -7,15 +7,44 @@
       background-color: rgb(216, 183, 192);
       
 }
+.fullbody {
+      margin: 0 auto;
+      max-width: 1000px;
+      width:95%;
+      box-shadow: bisque;
+      backdrop-filter: blur(50px);
+}
+body{
+      background-image: url('images/background.jpg');
+      
+      /* backface-visibility: hidden; */
+      background-attachment: fixed;
+      background-position: center;
+      /* position: fixed; */
+      
+}
+
+
 .video {
+      display: inline;
+/* flex-direction: column; */
+      /* position: fixed; */
       display: flex;
-flex-direction: column;
-align-items: center;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+
     }
 .logo{
-      position: relative;
+      /* position: relative; */
       align-content: initial;
+      border-radius: 15%;
+      background-blend-mode:overlay;
       
+}
+.photo:hover{
+      transform: scale(1.1);
+      backdrop-filter:blur(20px);
 }
 
 h4{
@@ -33,11 +62,21 @@ h4{
 }
 
 *{padding: 0px 5px 0px 5px; margin: 0; box-sizing: border-box;}
-body{height: 900px;}
-
+body{height: 900px;
+      /* background: rgb(168,62,62); */
+      /* background: linear-gradient(121deg, rgba(168,62,62,0.8576680672268908) 16%, rgba(249,255,241,1) 97%); */
+}
+a:hover{
+      background-color: rgb(165, 161, 174);
+      cursor: pointer;
+      text-decoration: none;
+      text-decoration-line: underline;
+}
 h3 {
       text-align: center;
-      padding: 20px;
+      padding: 30px;
+      /* text-size-adjust:initial; */
+      font-size: small;
       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        
 }
@@ -54,6 +93,7 @@ h3 {
 }
 nav * {
       display: inline;
+      
       
   }
 .photo {
@@ -80,7 +120,7 @@ nav li {
       text-decoration: none;
   }
 h1{
-      color:rgb(70, 62, 51);
+      color:rgb(46, 4, 4);
 }
 header {
 	text-align: center;
@@ -102,7 +142,7 @@ nav ul {
       text-transform: uppercase;
 }
 nav {
-      background-color: white;
+      background-color: rgb(196, 182, 182);
       position:relative;
       top: 0;
       left: 0;
