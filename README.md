@@ -38,3 +38,7 @@ The **HPCL Rajasthan Refinery Limited (HRRL) Website** is designed to provide em
 
 - **HTML**: For structuring the webpage.
 - **CSS**: For styling, including gradients and animations to enhance the user experience.
+### Desktop View
+![Desktop View](images/newss.png)
+
+
